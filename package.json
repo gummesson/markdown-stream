@@ -1,0 +1,34 @@
+{
+  "name": "markdown-stream",
+  "version": "1.0.0",
+  "description": "Tranform a stream of Markdown into HTML.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gummesson/markdown-stream.git"
+  },
+  "keywords": [
+    "stream",
+    "transform",
+    "markdown",
+    "html"
+  ],
+  "author": "Ellen Gummesson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gummesson/markdown-stream/issues"
+  },
+  "homepage": "https://github.com/gummesson/markdown-stream",
+  "dependencies": {
+    "remarkable": "^1.6.0",
+    "through2": "^0.6.5"
+  },
+  "devDependencies": {
+    "covert": "^1.0.1",
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "node test/",
+    "test:cover": "covert test/"
+  }
+}
