@@ -1,6 +1,6 @@
 {
   "name": "markdown-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tranform a stream of Markdown into HTML.",
   "main": "index.js",
   "repository": {
