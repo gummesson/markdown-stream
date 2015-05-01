@@ -10,7 +10,7 @@ var through    = require('through2')
  *
  * @param  {string} [preset]
  * @param  {object} [options]
- * @return {function}
+ * @return {object}
  *
  * @api public
  */
